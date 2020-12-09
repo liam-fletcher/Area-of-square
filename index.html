@@ -1,0 +1,45 @@
+<html>
+<head>
+<script>
+
+function addNumbers(){
+	var x = +document.getElementById("x1").value;
+	var output = x*x 
+	document.getElementById("td").innerHTML= output;
+	}
+	
+</script>
+</head>
+<body>
+
+<table style="border:1px solid red ; padding:10px 28px"> 
+<caption> Get the Area of Square</caption>
+<tr>
+<td>
+Enter the side : 
+</td>
+<td>
+<input type="text" id="x1">
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<input type="submit" onclick="addNumbers();" > 
+</td>
+</tr>
+
+ 
+<tr>
+<td>
+Area is : 
+</td>
+<td id="td">0</td>
+</tr>  
+
+</table>
+
+</body>
+</html>
+  
